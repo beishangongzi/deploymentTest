@@ -4,8 +4,8 @@ services:
                 image: "nginx:latest"
                 container_name: "nginx"
                 volumes:
-                        - ./docker/nginx/nginx.conf:/etc/nginx/nginx.conf
-                        - ./docker/nginx/default:/etc/nginx/sites-available/default
+                        - ./docker/nginx/nginx_product.conf:/etc/nginx/nginx.conf
+                        - ./docker/nginx/default_product:/etc/nginx/sites-available/default
                 networks:
                         - hello
                 ports:
