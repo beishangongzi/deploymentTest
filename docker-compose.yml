@@ -5,6 +5,7 @@ services:
                 container_name: "nginx"
                 volumes:
                         - ./docker/nginx/nginx.conf:/etc/nginx/nginx.conf
+                        - ./docker/nginx/default:/etc/nginx/sites-available/default
                 networks:
                         - hello
                 ports:

@@ -7,6 +7,7 @@ authors = ["Andy <zhangruibin021@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 Django = "^3.2.9"
+uWSGI = "^2.0.20"
 
 [tool.poetry.dev-dependencies]
 

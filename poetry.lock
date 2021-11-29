@@ -42,10 +42,18 @@ category = "main"
 optional = false
 python-versions = ">=3.5"
 
+[[package]]
+name = "uwsgi"
+version = "2.0.20"
+description = "The uWSGI server"
+category = "main"
+optional = false
+python-versions = "*"
+
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "3fbecdfc547c4afcb3d145b7965c43ba8831e054a744796d17c58e7914517550"
+content-hash = "4241fb6c1310070b6e800dce8aba7b9b427a95d60ece2912e5f155b4dd09fffb"
 
 [metadata.files]
 asgiref = [
@@ -63,4 +71,7 @@ pytz = [
 sqlparse = [
     {file = "sqlparse-0.4.2-py3-none-any.whl", hash = "sha256:48719e356bb8b42991bdbb1e8b83223757b93789c00910a616a071910ca4a64d"},
     {file = "sqlparse-0.4.2.tar.gz", hash = "sha256:0c00730c74263a94e5a9919ade150dfc3b19c574389985446148402998287dae"},
+]
+uwsgi = [
+    {file = "uwsgi-2.0.20.tar.gz", hash = "sha256:88ab9867d8973d8ae84719cf233b7dafc54326fcaec89683c3f9f77c002cdff9"},
 ]
